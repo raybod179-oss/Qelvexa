@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       other: [{ rel: 'mask-icon', url: `${BASE_PATH}/qer.png` }],
     },
     other: { 'msapplication-TileImage': `${BASE_PATH}/qer.png`, 'msapplication-TileColor': '#0d0f14' },
+    verification: { google: 'RnNxSynGkqbZttEz3qZgmqcuRz6Z2WB9FVSdHI-P9tY' },
   };
 }
 
